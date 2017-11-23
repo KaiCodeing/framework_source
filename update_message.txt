@@ -1,0 +1,12 @@
+
+
+2016.02.02   
+1. 优化框架Activity被销毁后Intent空指针的问题。
+2. 优化请求参数中包含&时，&后面的字段被截断的问题。
+3. XtomActivityManager 中添加finishOtherActivity方法，关闭除本Activity外其他所有Activity。
+4. 查看大图页面ShowLargePicActivity增加参数bottomHeight，bottomHeight表示底部黑色背景的高度，单位为px
+5. 查看多选相册时加入排序功能，现在按照修改时间由近及远排序。
+
+
+
+ 
